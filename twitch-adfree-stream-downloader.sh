@@ -10,7 +10,10 @@ trap "exitting" EXIT
 
 exitting() {
 	if [ -n "$(cat ${tmp_file})" ]; then
-		echo -e "\nStream ended!"
+		echo -e "\nThe stream has come to an end!"
+		if command -v notify-send 1>/dev/null; then
+			notify-send -t 10000 "The stream has come to an end!"
+		fi
 	fi
 	rm -f "${tmp_file}"
 }
