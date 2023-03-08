@@ -1,5 +1,5 @@
 # twitch-adfree-stream-downloader
-This script uses the dynamic VOD hls playlist to download the ongoing livestream producing a clean media file without any kind of commercial screens.
+This script uses the dynamic VOD hls playlist to download the ongoing livestream producing a clean media file without any kind of commercial breaks.
 
 Notes:
 - The streamer must have VODs active in the channel settings and the current stream's VOD must be public.
