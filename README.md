@@ -6,9 +6,8 @@ Notes:
 - Some streamers configure their streaming software to not send certain audio tracks to VOD, usually to avoid receiving DMCA for listening to copyrighted music and this will cause that type of audio to be silent when downloading the stream through VOD.
 
 <b>Installation</b>
-- Download the script through this [link](https://github.com/KaMyKaSii/twitch-adfree-stream-downloader/archive/refs/heads/main.zip).
-- Extract it.
-- Open your terminal in the extracted folder and then give the script executable permission with ```chmod +x twitch-adfree-stream-downloader.sh```
+- Download the script with ```curl https://github.com/KaMyKaSii/twitch-adfree-stream-downloader/raw/main/twitch-adfree-stream-downloader.sh -O```
+- Give the script executable permissions with ```chmod +x twitch-adfree-stream-downloader.sh```
 
 <b>Usage</b>
 
