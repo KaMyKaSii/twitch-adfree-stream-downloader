@@ -27,7 +27,10 @@ The script will then ask for the name of the output file (no need to add the ext
 After starting, the script will download all available VOD segments, wait for 5 minutes, download the new segments and repeat the process until the stream has no more new segments available indicating that it has reached the end.
 
 Note that the script is not limited to just Twitch, any other stream platform that also offers a dynamic hls playlist for a stream's VOD can be used. In this case, depending on how long the site takes to update the playlist, you may need to change the sleep time:
+
+```
 ./twitch-adfree-stream-downloader [VodLink] [WaitTimeSeconds]
+```
 
 <b>Support</b>
 
