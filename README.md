@@ -3,7 +3,7 @@ This script uses the dynamic VOD hls playlist to download the ongoing livestream
 
 Notes:
 - The streamer must have VODs active in the channel settings and the current stream's VOD must be public.
-- Some streamers configure their streaming software to not send certain audio tracks to VOD, usually to avoid receiving DMCA for listening to copyrighted music, and this will cause that part of the audio to be muted when downloading the stream through VOD.
+- Some streamers configure their streaming software to not send certain audio tracks to VOD, usually to avoid receiving DMCA for listening to copyrighted music and this will cause that type of audio to be silent when downloading the stream through VOD.
 
 <b>Installation</b>
 - Download the script through this [link](https://github.com/KaMyKaSii/twitch-adfree-stream-downloader/archive/refs/heads/main.zip).
